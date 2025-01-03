@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Menu Makanan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #00c4cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #00a5a9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daftar Menu Makanan</h1>
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="gambar/nasi.jpg" alt="Nasi Goreng">
+            <h3>Nasi Polos</h3>
+            <p>Harga: 20K</p>
+        </div>
+        <div class="menu-item">
+            <img src="gambar/ayam.jpg" alt="Ayam Geprek">
+            <h3>Ayam Geprek</h3>
+            <p>Harga: 20K</p>
+        </div>
+        <div class="menu-item">
+            <img src="gambar/soto_ayam.jpg" alt="Soto Ayam">
+            <h3>Soto Ayam</h3>
+            <p>Harga: 30K</p>
+        </div>
+        <div class="menu-item">
+            <img src="gambar/soto_daging.jpg" alt="Soto Daging">
+            <h3>Soto Daging</h3>
+            <p>Harga: 35K</p>
+        </div>
+    </div>
+    <div>
+        <a href="dashboard.php" class="button">Kembali ke Dashboard</a>
+    </div>
+</body>
+</html>
